@@ -7,23 +7,23 @@ class Nuvem < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/filipeaaoliveira/nuvem/releases/download/v0.1.0/nuvem-aarch64-apple-darwin.tar.gz"
-      sha256 "4767b41142e0f18c27cb9123870dc7232409928a29e077a3cdeede58dc3dafe1"
+      url "https://github.com/filipeaaoliveira/nuvem/releases/download/v0.1.1/nuvem-aarch64-apple-darwin.tar.gz"
+      sha256 "4d2f2a126c6014d75801b306e2b6160f073fdce186a992a20dd0f10fba4c56aa"
     end
     on_intel do
-      url "https://github.com/filipeaaoliveira/nuvem/releases/download/v0.1.0/nuvem-x86_64-apple-darwin.tar.gz"
-      sha256 "21b6d1ae1535e14e539be5e9c1be714317e3f1969ec7b4e23a7beab206b2702e"
+      url "https://github.com/filipeaaoliveira/nuvem/releases/download/v0.1.1/nuvem-x86_64-apple-darwin.tar.gz"
+      sha256 "6ce7ead9dc56ddb12397dfd06a721ef48118d9c123d75313bb25d7476d095a34"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/filipeaaoliveira/nuvem/releases/download/v0.1.0/nuvem-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d879c8145393566cd3f4a19f736ae40ed121e7e117fc4c8b77aa7a9193cd49fb"
+      url "https://github.com/filipeaaoliveira/nuvem/releases/download/v0.1.1/nuvem-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "8808a7ea4114fcbff87f2f9b7ec97161f75d21d2374f273b84339e914a90a1c1"
     end
     on_intel do
-      url "https://github.com/filipeaaoliveira/nuvem/releases/download/v0.1.0/nuvem-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e69e071fdf56007be969106e622fd1c13b1e34c454f7d1e37f53fddf9758f7b3"
+      url "https://github.com/filipeaaoliveira/nuvem/releases/download/v0.1.1/nuvem-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "439d38a863805d9a713d77689997f678fec9f90b9adfdd45e7c93a94c18abcd8"
     end
   end
 
